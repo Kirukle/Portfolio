@@ -1,5 +1,2 @@
 ﻿  Game.cpp
-  Main.cpp
-  Generating Code...
-Main.obj : error LNK2005: "void __cdecl menu(void)" (?menu@@YAXXZ) already defined in Game.obj
-E:\VGD\Ty\Mimus\Q3\ConsoleRPG\Debug\ConsoleRPG.exe : fatal error LNK1169: one or more multiply defined symbols found
+  ConsoleRPG.vcxproj -> E:\VGD\Ty\Portfolio\ConsoleRPG\Debug\ConsoleRPG.exe

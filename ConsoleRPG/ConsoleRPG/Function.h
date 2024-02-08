@@ -1,10 +1,10 @@
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+//#ifndef FUNCTIONS_H
+//#define FUNCTIONS_H
 
-void menu()
-{
+//void menu()
+//{
 
-}
+//}
 
 
-#endif
+//#endif
