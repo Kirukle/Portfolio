@@ -4,6 +4,8 @@
 #include<iomanip>
 #include<string>
 
+#include"Inventory.h"
+
 
 class Character
 {
@@ -35,6 +37,11 @@ public:
 private:
 	double xPos;
 	double yPos;
+
+	Inventory inventory;
+	Weapon weapon;
+	Armor armor;
+
 
 	std::string name;
 	int level;

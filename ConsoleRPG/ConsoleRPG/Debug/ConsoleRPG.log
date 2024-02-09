@@ -1,2 +1,49 @@
-﻿  Game.cpp
-  ConsoleRPG.vcxproj -> E:\VGD\Ty\Portfolio\ConsoleRPG\Debug\ConsoleRPG.exe
+﻿  Character.cpp
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(24,24): warning C4018: '<': signed/unsigned mismatch
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.cpp(5,1): error C2248: 'Armor::Armor': cannot access private member declared in class 'Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Armor.h(11): message : see declaration of 'Armor::Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Armor.h(3): message : see declaration of 'Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.cpp(34,1): error C2248: 'Armor::~Armor': cannot access private member declared in class 'Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Armor.h(14): message : see declaration of 'Armor::~Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Armor.h(3): message : see declaration of 'Armor'
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.cpp(95,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Game.cpp
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(24,24): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(681,47): error C2280: 'Character::Character(const Character &)': attempting to reference a deleted function
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.h(66): message : compiler has generated 'Character::Character' here
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.h(66,1): message : 'Character::Character(const Character &)': function was implicitly deleted because 'Character' has a data member 'Character::armor' with a deleted or inaccessible destructor
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Character.h(43): message : see declaration of 'Character::armor'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(708): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty>(_Alloc &,_Objty *const ,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Character>,
+              _Ty=Character,
+              _Objty=Character
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(713): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty>(_Alloc &,_Objty *const ,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Character>,
+              _Ty=Character,
+              _Objty=Character
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(726): message : see reference to function template instantiation 'void std::vector<Character,std::allocator<Character>>::_Emplace_back_with_unused_capacity<_Ty>(_Ty &&)' being compiled
+          with
+          [
+              _Ty=Character
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(748): message : see reference to function template instantiation 'void std::vector<Character,std::allocator<Character>>::emplace_back<Character>(Character &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(746): message : while compiling class template member function 'void std::vector<Character,std::allocator<Character>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=Character
+          ]
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Game.cpp(78): message : see reference to function template instantiation 'void std::vector<Character,std::allocator<Character>>::push_back(_Ty &&)' being compiled
+          with
+          [
+              _Ty=Character
+          ]
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Game.h(31): message : see reference to class template instantiation 'std::vector<Character,std::allocator<Character>>' being compiled
+  Main.cpp
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(24,24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
