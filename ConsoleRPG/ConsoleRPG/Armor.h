@@ -3,11 +3,11 @@
 class Armor :
 	public Item
 {
-public:
+private:
 	int type;
 	int defence;
 
-private:
+public:
 	Armor(int type = 0, int defence = 0,
 		std::string name = "NONE", int level = 0, int buyValue = 0,
 		int sellValue = 0, int rarity = 0);
