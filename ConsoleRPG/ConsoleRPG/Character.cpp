@@ -43,12 +43,13 @@ void Character::initialize(std::string name)
 	this->name = name;
 	this->level = 1;
 	this->exp = 0;
-	this->expNext = 0;
+	this->expNext = 1;
 
 	this->strength = 5;
 	this->constitution = 5;
 	this->dexterity = 5;
 	this->intelligence = 5;
+	
 
 	this->hpMax = (this->constitution * 2) + (this->strength/2);
 	this->hp = this->hpMax;
@@ -85,6 +86,15 @@ void Character::printStats() const
 	std::cout << std::endl;
 }
 
+void Character::updateStats()
+{
+	this->hpMax = (this->constitution * 2) + (this->strength / 2);
+	this->staminaMax = this->constitution + (this->strength / 2) + (this->dexterity);
+	this->damageMin = this->strength;
+	this->damageMax = this->strength + 2;
+	this->defence = this->dexterity + (this->intelligence / 2);
+	this->luck = this->intelligence;
+}
 
 void Character::levelUp()
 {
@@ -92,11 +102,16 @@ void Character::levelUp()
 	{
 		this->exp -= this->expNext;
 		this->level++;
-		this->expNext = (50 / 3) * (pow(this->level, 3)
-			- 6 * pow(this->level, 3) + (17 * this->level) - 11);
+		this->expNext = (level * 20);
 
 		this->statPoints++;
 		this->skillPoints++;
+
+		std::cout << "YOU ARE NOW LEVEL " << this->level << "!" << "\n\n";
+	}
+	else
+	{
+		std::cout << "NOT ENOUGH EXP!" << "\n\n";
 	}
 }
 

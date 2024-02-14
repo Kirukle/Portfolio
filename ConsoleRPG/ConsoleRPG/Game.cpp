@@ -24,6 +24,14 @@ void Game::initGame()
 
 void Game::mainMenu() 
 {
+	if (this->character[activeCharacter].getExp() >=
+		this->character[activeCharacter].getExpNext())
+	{
+		std::cout << "LEVEL UP AVAILABLE! \n\n";
+	}
+
+
+
 	std::cout << "= MAIN MENU =" << std::endl << std::endl;
 
 	std::cout << "Random" << std::endl;
@@ -48,6 +56,14 @@ void Game::mainMenu()
 		playing = false;
 		break;
 
+	case 1:
+
+		Traveling();
+		break;
+
+	case 3:
+		character[activeCharacter].levelUp();
+		break;
 	case 5:
 		character[activeCharacter].printStats();
 		break;
@@ -93,6 +109,13 @@ void Game::saveCharacter()
 	}
 
 	outFile.close();
+}
+
+void Game::Traveling()
+{
+	Travel travel;
+
+	travel.generateEvent(this->character[activeCharacter]);
 }
 
 bool Game::getPlaying() const{ return this->playing; }

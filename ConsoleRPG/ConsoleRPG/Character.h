@@ -18,6 +18,7 @@ public:
 	void printStats() const;
 	void levelUp();
 	std::string getAsString()const;
+	void updateStats();
 
 	inline const double& getX() const { return this->xPos; }
 	inline const double& getY() const { return this->yPos; }
@@ -34,6 +35,8 @@ public:
 	inline const int getDamageMax() const { return this->damageMax; }
 	inline const int getDefense() const { return this->defence; }
 	inline const int getLuck() const { return this->luck; }
+
+	inline void gainExp(const int& exp) { this->exp += exp; }
 private:
 	double xPos;
 	double yPos;

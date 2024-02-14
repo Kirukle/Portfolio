@@ -1,15 +1,10 @@
 ﻿  Character.cpp
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Character.cpp(95,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
   Game.cpp
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
-  Inventory.cpp
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.cpp(26,23): warning C4018: '<': signed/unsigned mismatch
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.cpp(50,23): warning C4018: '<': signed/unsigned mismatch
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.cpp(61,26): warning C4018: '<': signed/unsigned mismatch
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
   Main.cpp
-C:\Q4MyStuff\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
+  Travel.cpp
+E:\VGD\Ty\Portfolio\ConsoleRPG\ConsoleRPG\Inventory.h(27,24): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-  ConsoleRPG.vcxproj -> C:\Q4MyStuff\Portfolio\ConsoleRPG\Debug\ConsoleRPG.exe
+  ConsoleRPG.vcxproj -> E:\VGD\Ty\Portfolio\ConsoleRPG\Debug\ConsoleRPG.exe

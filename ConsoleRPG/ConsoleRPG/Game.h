@@ -4,6 +4,7 @@
 
 #include "Character.h"
 #include "Function.h"
+#include "Travel.h"
 #include <ctime>
 #include <vector>
 #include <fstream>
@@ -19,6 +20,7 @@ public:
 	void mainMenu();
 	void createNewCharacter();
 	void saveCharacter();
+	void Traveling();
 	//void loadCharacter();
 
 	bool getPlaying() const;
